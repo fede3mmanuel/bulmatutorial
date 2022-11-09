@@ -55,7 +55,19 @@
                 <div class="column is-12-tablet is-4-desktop">
                     <div class="is-size-4 mb-4">$10.95</div>
                     <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, voluptatem!</p>
-                    <button class="button is-primary">Add to cart</button>
+                    <form>
+                        <div class="field">
+                            <div class="control mb-6">
+                                <div class="select is-dark">
+                                    <select>
+                                        <option value="">Small (250g)</option>
+                                        <option value="">Large (500g)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="button is-primary">Add to cart</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -172,6 +184,34 @@
             <h3 class="title mb-6">
                 Join the club
             </h3>
+            <form>
+                <div class="field">
+                    <label class="label">Name</label>
+                    <div class="control">
+                        <input type="text" class="input" placeholder="Name">
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control">
+                        <input type="text" class="input" placeholder="Email">
+                    </div>
+                </div>
+
+                <div class="field">
+                    <div class="control">
+                        <label for="" class="checkbox">
+                            <input type="checkbox">
+                            I agree to the <a href="http://">Terms</a>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="mt-6 has-text-centered">
+                    <button class="button is-warning">Sign Up</button>
+                </div>
+            </form>
         </div>
     </div>
 
